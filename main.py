@@ -32,7 +32,7 @@ def handle(msg):
             bot.sendMessage(chat_id, "I don't understand you, I'm not a human, please use the keyboard :(")
 
     else:
-        bot.sendMessage(chat_id, 'You should type something!')
+        bot.sendMessage(chat_id, 'You should type something.')
 
     bot.sendMessage(chat_id, 'What do you want?',
                     reply_markup=ReplyKeyboardMarkup(
